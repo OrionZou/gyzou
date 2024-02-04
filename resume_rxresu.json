@@ -1,0 +1,307 @@
+{
+  "basics": {
+    "url": {
+      "href": "https://github.com/dotzou",
+      "label": ""
+    },
+    "name": "邹广源",
+    "email": "zgy122066329@163.com",
+    "phone": "15889510679",
+    "picture": {
+      "url": "https://storage.rxresu.me/clrk2xnxv00lotn3p0kcobnmc/pictures/clrk2xnxv00lotn3p0kcobnmc.jpg",
+      "size": 96,
+      "effects": {
+        "border": false,
+        "hidden": false,
+        "grayscale": false
+      },
+      "aspectRatio": 1,
+      "borderRadius": 6
+    },
+    "headline": "",
+    "location": "",
+    "customFields": []
+  },
+  "metadata": {
+    "css": {
+      "value": ".section {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}",
+      "visible": false
+    },
+    "page": {
+      "format": "a4",
+      "margin": 18,
+      "options": {
+        "breakLine": true,
+        "pageNumbers": true
+      }
+    },
+    "notes": "",
+    "theme": {
+      "text": "#000000",
+      "primary": "#475569",
+      "background": "#ffffff"
+    },
+    "layout": [
+      [
+        [
+          "summary",
+          "experience",
+          "projects",
+          "education",
+          "references",
+          "profiles",
+          "volunteer"
+        ],
+        [
+          "skills",
+          "interests",
+          "certifications",
+          "awards",
+          "languages",
+          "publications"
+        ]
+      ]
+    ],
+    "template": "gengar",
+    "typography": {
+      "font": {
+        "size": 12,
+        "family": "Merriweather",
+        "subset": "latin",
+        "variants": [
+          "regular"
+        ]
+      },
+      "hideIcons": false,
+      "lineHeight": 1.2,
+      "underlineLinks": true
+    }
+  },
+  "sections": {
+    "awards": {
+      "id": "awards",
+      "name": "Awards",
+      "items": [],
+      "columns": 1,
+      "visible": true
+    },
+    "custom": {},
+    "skills": {
+      "id": "skills",
+      "name": "个人技能",
+      "items": [
+        {
+          "id": "jpwytm38tqfl22pzvofvu4yw",
+          "name": "阿萨",
+          "level": 1,
+          "visible": true,
+          "keywords": [],
+          "description": ""
+        }
+      ],
+      "columns": 1,
+      "visible": true
+    },
+    "summary": {
+      "id": "summary",
+      "name": "个人介绍",
+      "columns": 1,
+      "content": "<p>aa</p>",
+      "visible": true
+    },
+    "profiles": {
+      "id": "profiles",
+      "name": "profiles",
+      "items": [],
+      "columns": 1,
+      "visible": false
+    },
+    "projects": {
+      "id": "projects",
+      "name": "项目经历",
+      "items": [
+        {
+          "id": "ahqt4l090osybiouiasgkk8v",
+          "visible": true,
+          "name": "MOBA品类游戏的AI训练",
+          "description": "",
+          "date": "2022年2月 - 2023年7月",
+          "summary": "<p><strong>项目背景: </strong>MOBA类游戏在挂机代打、练习、等场景中十分需要高水平的Bot AI。以传统行为树的方式生产的Bot强度低、行为单一，人机时Bot饱受玩家吐槽。我们训练DRL模型控制Bot，实现高水平、多行为的表现，提升玩家的游玩体验，探索更多玩法。</p><p><strong>工作内容: </strong></p><p>1. 优化模型强度、拟人性、辅助玩家等方面的表现，实现1v9温暖局的BotAI上线，成功发布3个版本的模型组合，提升温暖局DAU 10%。</p><p>2. 提升模型在新版本新英雄上的泛化性，实现采用样本权重微调方式训练代替重新训练的方式，训练效率提升10倍左右。</p><p>3. 搭建模型生产流水线，包含环境准备、训练、天梯评估、模型选择等过程，满足模型随客户端版本，快速迭代生产的需求。</p>",
+          "keywords": ["PPO", "Reward Engineering", "Selfplay", "Open Five", "League"],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "ahqt4l090osybiouiasgkk8z",
+          "visible": true,
+          "name": "基于渲染图的3D模型资产管理",
+          "description": "",
+          "date": "2023年8月 - 至今",
+          "summary": "<p><strong>项目背景: </strong>AIGC时代，3D模型AI化生产需要大量高质量的3D模型资产，现有资产质量参差不齐、信息缺失的问题。</p><p><strong>工作内容: </strong></p><p>1. 3D模型资产质量评估：对接算法需求，归因质量分类，设计标注训练数据集，训练分类模型，大批量3D模型资产的推理打标。</p><p>2. 3D模型资产的分类：采用LLM和LMM方案，满足全量3D模型资产的分类体系生成需求。</p><p>3. 3D模型资产的聚类：采用HNSW聚类算法，实现去除去除3D模型资产需求。</p>",
+          "keywords": ["VIT", "LLM", "LMM", "HNSW", "Redis", "MySQL"],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ],
+      "columns": 1,
+      "visible": true
+    },
+    "education": {
+      "id": "education",
+      "name": "教育经历",
+      "items": [
+        {
+          "id": "kou73cqdrzcp67dymf8hq103",
+          "visible": true,
+          "institution": "深圳大学",
+          "studyType": "硕士",
+          "area": "计算机科学与技术",
+          "score": "",
+          "date": "2019年9月-2022年7月",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "yb62b9zdfla5sv2eyqpb8vlx",
+          "url": {
+            "href": "",
+            "label": ""
+          },
+          "area": "信息管理与信息系统",
+          "date": "2015年9月 - 2019年7月",
+          "score": "",
+          "summary": "",
+          "visible": true,
+          "studyType": "学士",
+          "institution": "昆明理工大学"
+        }
+      ],
+      "columns": 1,
+      "visible": true
+    },
+    "interests": {
+      "id": "interests",
+      "name": "更多信息",
+      "items": [
+        {
+          "id": "ozgfna4bzy67zdq1e6x6cyma",
+          "name": "2222",
+          "visible": true,
+          "keywords": []
+        }
+      ],
+      "columns": 1,
+      "visible": true
+    },
+    "languages": {
+      "id": "languages",
+      "name": "Languages",
+      "items": [],
+      "columns": 1,
+      "visible": true
+    },
+    "volunteer": {
+      "id": "volunteer",
+      "name": "Volunteering",
+      "items": [],
+      "columns": 1,
+      "visible": true
+    },
+    "experience": {
+      "id": "experience",
+      "name": "工作经历",
+      "items": [
+        {
+          "id": "owfuouybcfu9qq1zmff88jp2",
+          "visible": true,
+          "company": "腾讯游戏",
+          "position": "应用研究(T6)",
+          "location": "研发效能部-游戏AI研究中心",
+          "date": "2022年2月 - 至今",
+          "summary": "<ol><li><p>训练DRL模型，提升MOBA品类游戏的BotAI的游戏强度和拟人性；</p></li><li><p>训练分类器和使用LMM进行3D模型的数据清洗(分类、聚类和质量评估)。</p></li></ol>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "owfuouybcfu9qq1zmff88j22",
+          "url": {
+            "href": "",
+            "label": ""
+          },
+          "date": "2021年7月 - 2021年9月",
+          "company": "腾讯游戏",
+          "summary": "实习期间，我使用自研的DRL训练平台，提升竞速品类游戏中BotAI的行为表现(强度和拟人性)，参与多个地图多种难度的BotAI的上线。",
+          "visible": true,
+          "location": "研发效能部-游戏AI研究中心",
+          "position": "算法实习生"
+        }
+      ],
+      "columns": 1,
+      "visible": true
+    },
+    "references": {
+      "id": "references",
+      "name": "研究成果",
+      "items": [
+        {
+          "id": "hil89dfgpx49lkpdk0ieru08",
+          "url": {
+            "href": "",
+            "label": ""
+          },
+          "name": "IJCAI2022一作",
+          "summary": "<p><strong>Guangyuan Zou</strong>, Ying He*, F. Richard Yu, Longquan Chen, Weike Pan, Zhong Ming. Multi-Constraint Deep Reinforcement Learning for Smooth Action Control [C]. In: Proceedings of the 31st International Joint Conference on Artificial Intelligence (IJCAI 2022). (Accepted)</p>",
+          "visible": true,
+          "description": ""
+        },
+        {
+          "id": "hil89dfgpx49lkpdk0ieru09",
+          "url": {
+            "href": "",
+            "label": ""
+          },
+          "name": "硕士毕业论文",
+          "summary": "<p><strong>邹广源</strong>. 面向自动驾驶控制策略的深度强化学习算法研究[D].深圳大学,2022.</p>",
+          "visible": true,
+          "description": ""
+        },
+        {
+          "id": "hil89dfgpx49lkpdk0ieru10",
+          "url": {
+            "href": "",
+            "label": ""
+          },
+          "name": "发明专利3篇",
+          "summary": "<p><strong>邹广源</strong>,贺颖,陈龙权,潘微科. 自动驾驶控制方法及装置[P]. 广东省：CN113060160A,2021-07-02. (已授权)</p><p>贺颖,陈龙权,<strong>邹广源</strong>,潘微科. 决策控制方法、装置、自动驾驶车辆及存储介质[P]. 广东省：CN113071524B,2022-04-12. (已授权)</p><p>陈龙权,贺颖,<strong>邹广源</strong>,潘微科. 自动驾驶控制方法及装置[P]. 广东省：CN113219968A,2021-08-06. (已授权)</p>",
+          "visible": true,
+          "description": ""
+        }
+      ],
+      "columns": 1,
+      "visible": true
+    },
+    "publications": {
+      "id": "publications",
+      "name": "Publications",
+      "items": [],
+      "columns": 1,
+      "visible": true
+    },
+    "certifications": {
+      "id": "certifications",
+      "name": "Certifications",
+      "items": [],
+      "columns": 1,
+      "visible": true
+    }
+  }
+}
