@@ -91,7 +91,7 @@
           "date": "2022年12月",
           "title": "卓越研发奖",
           "awarder": "腾讯",
-          "summary": "<p>参与的MOBA品类游戏的AI生产项目 获得腾讯公司授予的卓越研发奖</p>",
+          "summary": "<p>参与的MOBA品类游戏的AI生产项目 获得腾讯公司授予的卓越研发奖。</p>",
           "visible": true
         },
         {
@@ -163,7 +163,7 @@
       "id": "summary",
       "name": "个人介绍",
       "columns": 1,
-      "content": "<p>一个有2年工作经验的算法工程师，主要从事<strong>深度强化学习(DRL)</strong>、<strong>多模态模型(LMM)</strong>相关的研究、应用、生产。参与了腾讯游戏的MOBA类、竞速类游戏AI的训练、评估、生产和上线等环节的建设和调优，对于强化学习模型调优有丰富经验。参与了腾讯游戏的3D模型数据清洗的诸多环节，对<strong>LLM和LMM的开源项目和API使用</strong>以及<strong>设计prompt</strong>有丰富经验。</p>",
+      "content": "<p>2年工作经验的算法工程师，从事<strong>深度强化学习(DRL)</strong>和<strong>多模态模型(LMM)</strong>方向的研究、应用及生产。参与了腾讯游戏的MOBA类、竞速类游戏AI的训练、评估、生产及上线等环节的建设和调优，对于强化学习模型调优有丰富经验。参与了腾讯游戏的3D模型资产管理，对<strong>LLM和LMM的开源项目和API使用</strong>以及<strong>设计prompt</strong>有丰富经验。</p>",
       "visible": true
     },
     "profiles": {
@@ -185,7 +185,7 @@
           },
           "date": "2022年2月 - 2023年7月",
           "name": "MOBA品类游戏的AI训练",
-          "summary": "<p><strong>项目背景: </strong>MOBA类游戏在挂机代打、练习、等场景中十分需要高水平的Bot AI。以传统行为树的方式生产的Bot强度低、行为单一，人机时Bot饱受玩家吐槽。我们训练DRL模型控制Bot，实现高水平、多行为的表现，提升玩家的游玩体验，探索更多玩法。</p><p><strong>工作内容: </strong></p><p>1. <strong>优化模型强度、拟人性、辅助玩家等方面的表现</strong>，实现1v9温暖局的BotAI上线，成功发布3个版本的模型组合，<strong>提升温暖局DAU 10%</strong>。</p><p>2. 提升DRL模型在新版本新英雄上的泛化性，<strong>实现基于英雄样本权重比例分配微调的训练方式</strong>，避免重新训练的计算资源浪费。</p><p>3. 搭建<strong>模型生产流水线</strong>，包含环境准备、训练、天梯评估、模型选择等过程，满足模型随客户端版本，快速迭代生产的需求。</p><p><strong>总结: </strong>实现项目需求之外，我对DRL用于生产的理解更加深刻，提升了自己的代码管理能力。</p>",
+          "summary": "<p><strong>项目背景: </strong>MOBA类游戏在挂机代打、练习等场景中有高水平的Bot AI的需求。以传统行为树的方式生产的Bot强度低、行为单一，因而人机时饱受玩家吐槽。我们训练DRL模型控制Bot，达到高水平、行为丰富的表现，提升玩家的游玩体验，探索更多玩法。</p><p><strong>工作内容: </strong></p><p>1. <strong>优化模型强度、拟人性、辅助玩家等方面的表现</strong>，实现1v9温暖局的BotAI上线，成功发布3个版本的模型组合，<strong>提升温暖局DAU 10%</strong>。</p><p>2. 提升DRL模型在新版本新英雄上的泛化性，<strong>实现基于英雄样本权重比例分配微调的训练方式</strong>，避免重新训练的计算资源浪费。</p><p>3. 搭建<strong>模型生产流水线</strong>，包含环境准备、训练、天梯评估、模型选择等过程，满足模型随客户端版本，快速迭代生产的需求。</p><p><strong>总结: </strong>实现项目需求加深了我对DRL做生产的理解，代码管理能力得到提升。</p>",
           "visible": true,
           "keywords": [
             "PPO",
@@ -205,7 +205,7 @@
           },
           "date": "2023年8月 - 至今",
           "name": "基于渲染图的3D模型资产管理",
-          "summary": "<p><strong>项目背景: </strong>AIGC时代，3D模型AI化生产需要大量高质量的3D模型资产，现有资产质量参差不齐、信息缺失的问题。</p><p><strong>工作内容: </strong></p><p>1. 3D模型资产<strong>质量评估</strong>：对接算法需求，归因质量分类，设计标注训练数据集，训练分类模型，大批量3D模型资产的推理打标。</p><p>2. 3D模型资产的<strong>分类</strong>：提出<strong>基于LLM和LMM设计prompt做开放词库分类</strong>的方案，满足全量3D模型资产的分类体系生成需求。</p><p>3. 3D模型资产的<strong>聚类</strong>：采用<strong>HNSW聚类算法</strong>，实现去除去除3D模型资产需求。</p><p><strong>总结: </strong>实现项目需求之外，我加深了对数据清洗过程的理解，增强了对现有流行LLM/LMM的开源项目或API的了解使用。</p>",
+          "summary": "<p><strong>项目背景: </strong>AIGC时代，3D模型AI化生产需要大量高质量的3D模型资产，现有资产质量参差不齐、信息缺失的问题。采用训练专有模型或调用LMM的方式做数据清洗。</p><p><strong>工作内容: </strong></p><p>1. 3D模型资产<strong>质量评估</strong>：对接算法需求，归因质量分类，设计标注训练数据集，训练分类模型，大批量3D模型资产的推理打标。</p><p>2. 3D模型资产的<strong>分类</strong>：提出<strong>基于LLM和LMM设计prompt做开放词库分类</strong>的方案，满足3D模型资产的分类体系生成需求。</p><p>3. 3D模型资产的<strong>聚类</strong>：采用<strong>HNSW聚类算法</strong>，满足3D模型资产去重需求。</p><p><strong>总结: </strong>实现项目需求之外，我对现有流行LLM/LMM的开源项目或API有了更多理解和使用经验。</p>",
           "visible": true,
           "keywords": [
             "VIT",
@@ -268,7 +268,7 @@
         },
         {
           "id": "ozgfna4bzy67zdq1e6x6cyms",
-          "name": "对各类有意思的开源项目充满好奇和兴趣",
+          "name": "尝试各类有意思的开源项目",
           "visible": true,
           "keywords": []
         }
