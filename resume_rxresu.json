@@ -179,14 +179,11 @@
       "items": [
         {
           "id": "ahqt4l090osybiouiasgkk8v",
-          "url": {
-            "href": "",
-            "label": ""
-          },
-          "date": "2022年2月 - 2023年7月",
-          "name": "MOBA品类游戏的AI训练",
-          "summary": "<p><strong>项目背景: </strong>MOBA类游戏在挂机代打、练习等场景中有高水平的Bot AI的需求。以传统行为树的方式生产的Bot强度低、行为单一，因而人机时饱受玩家吐槽。我们训练DRL模型控制Bot，达到高水平、行为丰富的表现，提升玩家的游玩体验，探索更多玩法。</p><p><strong>工作内容: </strong></p><p>1. <strong>优化模型强度、拟人性、辅助玩家等方面的表现</strong>，实现1v9温暖局的BotAI上线，成功发布3个版本的模型组合，<strong>提升温暖局DAU 10%</strong>。</p><p>2. 提升DRL模型在新版本新英雄上的泛化性，<strong>实现基于英雄样本权重比例分配微调的训练方式</strong>，避免重新训练的计算资源浪费。</p><p>3. 搭建<strong>模型生产流水线</strong>，包含环境准备、训练、天梯评估、模型选择等过程，满足模型随客户端版本，快速迭代生产的需求。</p><p><strong>总结: </strong>实现项目需求加深了我对DRL做生产的理解，代码管理能力得到提升。</p>",
           "visible": true,
+          "name": "MOBA品类游戏的AI训练",
+          "description": "",
+          "date": "2022年2月 - 2023年7月",
+          "summary": "<p><strong>项目背景: </strong>MOBA类游戏在挂机代打、练习等场景中有高水平的Bot AI的需求。以传统行为树的方式生产的Bot强度低、行为单一，因而人机时饱受玩家吐槽。我们训练DRL模型控制Bot，达到高水平、行为丰富的表现，提升玩家的游玩体验，探索更多玩法。</p><p><strong>工作内容: </strong></p><p>1. <strong>优化模型强度、拟人性、辅助玩家等方面的表现</strong>，实现1v9温暖局的BotAI上线，成功发布3个版本的模型组合，<strong>提升温暖局DAU 10%</strong>。</p><p>2. 提升DRL模型在新版本新英雄上的泛化性，<strong>实现基于英雄样本权重比例分配微调的训练方式</strong>，避免重新训练的计算资源浪费。</p><p>3. 搭建<strong>模型生产CI/CD流水线</strong>，包含环境准备、训练、天梯评估、模型选择等过程，满足模型随客户端版本，快速迭代生产的需求。</p><p><strong>总结: </strong>实现项目需求加深了我对DRL做生产的理解，代码管理能力得到提升。</p>",
           "keywords": [
             "PPO",
             "Strategy Distill",
@@ -195,7 +192,10 @@
             "Open Five",
             "League"
           ],
-          "description": ""
+          "url": {
+            "label": "",
+            "href": ""
+          }
         },
         {
           "id": "ahqt4l090osybiouiasgkk8z",
