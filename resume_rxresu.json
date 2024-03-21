@@ -147,7 +147,7 @@
       "id": "summary",
       "name": "个人介绍",
       "columns": 1,
-      "content": "<p>2年工作经验的算法工程师，从事<strong>深度强化学习（DRL）</strong>和<strong>多模态模型（LMM）</strong>方向的研究与应用。参与了腾讯游戏的 MOBA 类、竞速类游戏 AI 的训练、评估及上线等环节的建设和调优，对于强化学习模型调优有丰富经验。参与了腾讯游戏的 3D 模型资产管理，对 <strong>LLM 和 LMM 的开源项目和 API 使用</strong>以及<strong>设计 prompt </strong>有丰富经验。</p>",
+      "content": "<p>2年工作经验的算法工程师，从事<strong>深度强化学习（DRL）</strong>和<strong>多模态模型（LMM）</strong>方向的研究与应用。参与了腾讯游戏的 MOBA 类、竞速类游戏 AI 的训练、评估及上线等环节的建设和调优，对于强化学习模型调优有丰富经验。参与了腾讯游戏的 3D 模型资产的数据工程，对 <strong>LLM 和 LMM 的开源项目和 API 使用</strong>以及<strong>设计 prompt </strong>有丰富经验。</p>",
       "visible": true
     },
     "profiles": {
@@ -189,7 +189,7 @@
           },
           "date": "2023年8月 - 至今",
           "name": "3D 模型资产数据清洗",
-          "summary": "<p><strong>项目背景：</strong>对现有大量 3D 模型资产进行数据清洗（去重/相似聚类、生成分类体系、质量评估和自动化质量标注），为3D模型生成和3D模型摆放，提供优质数据。</p><p><strong>工作内容：</strong></p><p>1. 3D 模型资产<strong>的自动质量标注</strong>：根据算法需求总结质量归因并设计prompt，采用LLMs接口，实现/完成 全量3D模型资产的质量归因打标。</p><p>2. 3D 模型资产<strong>质量评估</strong>：构造质量分级数据集，以数据飞轮的方式训练质量评估模型，完成全量 3D 模型资产的质量分级，查准率达到92%，查全率达到85%。</p><p>3. 3D 模型资产<strong>的分类体系生成</strong>：提出<strong>基于 LLM 和 LMM 设计 prompt 做开放词库分类</strong>的方案，完成全量 3D 模型资产的分类体系生成/分类的需求。</p><p>4. 3D 模型资产的<strong>去重/相似聚类</strong>：采用 <strong>增量聚类的方式</strong>，实现全量 3D 模型资产根据相似性有效归类，完成去重/相似聚类的需求。</p><p><strong>总结：</strong>实现项目需求之外，我收获了很多流行 LLM/LMM 开源项目和 API 的使用经验。</p>",
+          "summary": "<p><strong>项目背景：</strong>对现有大量 3D 模型资产进行数据清洗（去重/相似聚类、生成分类体系、质量评估和自动化质量标注），为3D模型生成和3D模型摆放，提供优质数据。</p><p><strong>工作内容：</strong></p><p>1. 3D 模型资产的<strong>质量标注</strong>：根据算法需求总结质量归因并设计prompt，采用LLMs接口，实现/完成 全量3D模型资产的质量归因打标。</p><p>2. 3D 模型资产的<strong>质量评估</strong>：构造质量分级数据集，以数据飞轮的方式训练质量评估模型，完成全量 3D 模型资产的质量分级，查准率达到92%，查全率达到85%。</p><p>3. 3D 模型资产的<strong>分类体系生成</strong>：提出<strong>基于 LLM 和 LMM 设计 prompt 做开放词库分类</strong>的方案，完成全量 3D 模型资产的分类体系生成/分类的需求。</p><p>4. 3D 模型资产的<strong>去重/相似聚类</strong>：采用 <strong>增量聚类的方式</strong>，实现全量 3D 模型资产根据相似性有效归类，完成去重/相似聚类的需求。</p><p><strong>总结：</strong>实现项目需求之外，我收获了很多流行 LLM/LMM 开源项目和 API 的使用经验。</p>",
           "visible": true,
           "keywords": [
             "ViT",
@@ -295,7 +295,7 @@
           },
           "date": "2022年2月 - 至今",
           "company": "腾讯游戏",
-          "summary": "<ol><li><p>训练 DRL 模型，提升 MOBA 品类游戏 bot 的强度和拟人性；</p></li><li><p> 3D 模型资产的数据清洗（<strong>去重/相似聚类、生成分类体系、质量评估和自动化质量标注</strong>）。</p></li></ol>",
+          "summary": "<ol><li><p>训练 DRL 模型，提升 MOBA 品类游戏 bot 的强度和拟人性；</p></li><li><p> 3D 模型资产的数据工程（去重/相似聚类、生成分类、质量评估和质量标注）。</p></li></ol>",
           "visible": true,
           "location": "研发效能部 - 游戏AI研究中心",
           "position": "应用研究（T6）"
