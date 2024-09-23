@@ -1,7 +1,7 @@
 {
   "basics": {
     "url": {
-      "href": "https://github.com/dotzou",
+      "href": "https://github.com/OrionZou",
       "label": ""
     },
     "name": "邹广源",
@@ -19,7 +19,7 @@
       "borderRadius": 6
     },
     "headline": "",
-    "location": "",
+    "location": "深圳",
     "customFields": []
   },
   "metadata": {
@@ -108,7 +108,8 @@
         }
       ],
       "columns": 1,
-      "visible": true
+      "visible": true,
+      "separateLinks": true
     },
     "custom": {},
     "skills": {
@@ -117,45 +118,47 @@
       "items": [
         {
           "id": "jpwytm38tqfl22pzvofvu4ys",
-          "name": "Gemini Pro Vision, GPT4 API ",
-          "level": 4,
           "visible": true,
-          "keywords": [],
-          "description": ""
+          "name": "Agent 应用开发",
+          "description": "",
+          "level": 5,
+          "keywords": [
+            "Openwebui",
+            "LLamaIndex",
+            "VLLM"
+          ]
         },
         {
           "id": "jpwytm38tqfl22pzvofvu4yz",
-          "name": "HuggingFace, DeepSpeed",
-          "level": 4,
           "visible": true,
-          "keywords": [],
-          "description": ""
-        },
-        {
-          "id": "jpwytm38tqfl22pzvofvu4y1",
-          "name": "PyTorch, TensorFlow",
+          "name": "模型训练",
+          "description": "",
           "level": 5,
-          "visible": true,
-          "keywords": [],
-          "description": ""
+          "keywords": [
+            "PyTorch",
+            "HuggingFace"
+          ]
         }
       ],
       "columns": 1,
-      "visible": true
+      "visible": true,
+      "separateLinks": true
     },
     "summary": {
       "id": "summary",
       "name": "个人介绍",
       "columns": 1,
-      "content": "<p>2年工作经验的算法工程师，从事<strong>深度强化学习（DRL）</strong>和<strong>多模态模型（LMM）</strong>方向的研究与应用。参与了腾讯游戏的 MOBA 类、竞速类游戏 AI 的训练、评估及上线等环节的建设和调优，对于强化学习模型调优有丰富经验。参与了腾讯游戏的 3D 模型资产的数据工程，对 <strong>LLM 和 LMM 的开源项目和 API 使用</strong>以及<strong>设计 prompt </strong>有丰富经验。</p>",
-      "visible": true
+      "content": "<p>2年工作经验的算法工程师，从事/有志于 <strong>深度强化学习（DRL）</strong>和 <strong>Agent开发 </strong>方向。</p><p>在腾讯，主要参与游戏 AI 的模型训练、评估及上线等环节的建设，对于强化学习方案设计和模型训练有丰富经验。</p><p>在腾讯，参与了3D 模型资产的<strong>数据处理流水线开发</strong>，具有相关的设计开发经验。</p><p>在Moffett AI，主要参与 LLM Infra接口的开发 和 Agent应用Demo 的设计开发，对 <strong>LLM infra 接口设计 和 Agent 设计 </strong>有丰富经验。</p>",
+      "visible": true,
+      "separateLinks": true
     },
     "profiles": {
       "id": "profiles",
       "name": "profiles",
       "items": [],
       "columns": 1,
-      "visible": false
+      "visible": false,
+      "separateLinks": true
     },
     "projects": {
       "id": "projects",
@@ -163,14 +166,11 @@
       "items": [
         {
           "id": "ahqt4l090osybiouiasgkk8v",
-          "url": {
-            "href": "",
-            "label": ""
-          },
-          "date": "2022年2月 - 2023年7月",
-          "name": "MOBA 品类游戏的 AI 训练",
-          "summary": "<p><strong>项目背景：</strong>MOBA 类游戏在掉线托管、练习等场景中有高水平 bot 的需求。传统行为树方式制作 bot 强度低且行为单一，因而应用于上述场景时频遭玩家抱怨。我们训练 DRL 模型控制 bot，达到高水平且行为丰富的表现，提升玩家游玩体验，探索更多玩法。</p><p><strong>工作内容：</strong></p><p>1. <strong>优化模型强度、拟人性和配合能力等方面的表现</strong>，实现 1human VS 9bot 凑局在某些场景中应用以提升玩家回流率，成功发布若干版本，提升该类场景下 DAU 10%。</p><p>2. 提升 DRL 模型在新版本新英雄上的泛化性，<strong>实现基于英雄样本权重比例分配微调的训练方式</strong>，避免重新训练的计算资源浪费。</p><p>3. 搭建<strong>模型迭代的 CI/CD 流水线</strong>，包含环境准备、训练、天梯评估和模型选择等过程，实现模型随客户端版本快速迭代的需求。</p><p><strong>总结：</strong>实现项目需求加深了我对 DRL 落地的理解，提升了我的代码管理能力。</p>",
           "visible": true,
+          "name": "MOBA 品类游戏的 AI 训练",
+          "description": "",
+          "date": "2022年2月 - 2023年7月",
+          "summary": "<p><strong>项目背景：</strong>MOBA 类游戏在掉线托管、练习等场景中有高水平 bot 的需求。传统行为树方式制作 bot 强度低且行为单一，因而应用于上述场景时频遭玩家抱怨。我们训练 DRL 模型控制 bot，达到高水平且行为丰富的表现，提升玩家游玩体验，探索更多玩法。</p><p><strong>工作内容：</strong></p><p>1. <strong>优化模型强度、拟人性和配合能力等方面的表现</strong>，实现 1human VS 9bot 凑局在某些场景中应用以提升玩家回流率，成功发布若干版本，提升该类场景下 DAU 10%。</p><p>2. 提升 DRL 模型在新版本新英雄上的泛化性，<strong>实现基于英雄样本权重比例分配微调的训练方式</strong>，避免重新训练的计算资源浪费。</p><p>3. 搭建<strong>模型迭代的 CI/CD 流水线</strong>，包含环境准备、训练、天梯评估和模型选择等过程，实现模型随客户端版本快速迭代的需求。</p><p><strong>总结：</strong>，这个项目极大地锻炼了我的工程能力和解放方案的设计能力，加深了我对 DRL 落地的理解，与团队获得研发突破奖。</p>",
           "keywords": [
             "PPO",
             "Reward Engineering",
@@ -179,18 +179,18 @@
             "League",
             "Strategy Distillation"
           ],
-          "description": ""
+          "url": {
+            "label": "",
+            "href": ""
+          }
         },
         {
           "id": "ahqt4l090osybiouiasgkk8z",
-          "url": {
-            "href": "",
-            "label": ""
-          },
-          "date": "2023年8月 - 至今",
-          "name": "3D 模型资产数据清洗",
-          "summary": "<p><strong>项目背景：</strong>对现有大量 3D 模型资产进行数据清洗（去重/相似聚类、生成分类体系、质量评估和自动化质量标注），为3D模型生成和3D模型摆放，提供优质数据。</p><p><strong>工作内容：</strong></p><p>1. 3D 模型资产的<strong>质量标注</strong>：根据算法需求总结质量归因并设计prompt，采用LLMs接口，实现/完成 全量3D模型资产的质量归因打标。</p><p>2. 3D 模型资产的<strong>质量评估</strong>：构造质量分级数据集，以数据飞轮的方式训练质量评估模型，完成全量 3D 模型资产的质量分级，查准率达到92%，查全率达到85%。</p><p>3. 3D 模型资产的<strong>分类体系生成</strong>：提出<strong>基于 LLM 和 LMM 设计 prompt 做开放词库分类</strong>的方案，完成全量 3D 模型资产的分类体系生成/分类的需求。</p><p>4. 3D 模型资产的<strong>去重/相似聚类</strong>：采用 <strong>增量聚类的方式</strong>，实现全量 3D 模型资产根据相似性有效归类，完成去重/相似聚类的需求。</p><p><strong>总结：</strong>实现项目需求之外，我收获了很多流行 LLM/LMM 开源项目和 API 的使用经验。</p>",
           "visible": true,
+          "name": "数据处理流水线开发",
+          "description": "",
+          "date": "2023年8月 - 2024年3月",
+          "summary": "<p><strong>项目背景：</strong>现有大量 3D 模型资产质量参差不齐，导致数据不能被有效利用，搭建数据处理流水线，为3D模型生成和3D模型摆放等应用，提供优质的训练数据。</p><p><strong>工作内容：</strong></p><p>数据处理流水线的开发主要包括：3D 模型资产的 1. <strong>去重/相似聚类</strong> -&gt; 2. 生成<strong>分类体系 </strong>-&gt; 3. <strong>质量评估</strong> -&gt; 4. <strong>质量标注</strong>。</p><ol><li><p>设计实现 <strong>增量聚类</strong>方案 ，降低聚类的计算瓶颈，达到去重的目标；</p></li><li><p>结合 LLM的世界知识能力，设计实现自动化的<strong>分类体系生成</strong>方案；</p></li><li><p>设计数据飞轮式的迭代训练方案，训练得到结果较好的<strong>质量评估模型；</strong></p></li><li><p><strong>结合图文大模型的世界知识能力，设计实现 自动化标注方案，结果</strong>准确率较高 。</p></li></ol><p><strong>总结：</strong>我们团队通过完成项目实现了<strong>优质数据从无到有</strong>，较大提升了<strong>下游模型的训练效率</strong>。在这个项目中，较好锻炼了我对于不熟悉技术的快速学习应用的能力。</p>",
           "keywords": [
             "ViT",
             "Gemini",
@@ -199,11 +199,49 @@
             "HNSW",
             "Redis"
           ],
-          "description": ""
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "kzsyg5ik4tyv0qkh2cy3lqvq",
+          "visible": true,
+          "name": "Agent 应用Demo的研发和交付",
+          "description": "",
+          "date": "2024年4月 - 至今",
+          "summary": "<ol><li><p>设计 实现 智能客服应用 Demo，采用rag + in-context learning的技术思路，实现人工反馈纠正模型回答。</p></li><li><p>设计 实现 Text to SQL Demo。</p></li></ol>",
+          "keywords": [
+            "LlamaIndex",
+            "Fastapi",
+            "asyncio"
+          ],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "j77s075v4p833rvj5axx272y",
+          "visible": true,
+          "name": "LLM infra框架的研发和交付",
+          "description": "",
+          "date": "2024年4月 - 至今",
+          "summary": "<ol><li><p>采用 asyncio 的编程方式，优化infra接口并发；</p></li><li><p>实现流式输出接口。</p></li></ol>",
+          "keywords": [
+            "VLLM",
+            "asyncio",
+            "fastapi"
+          ],
+          "url": {
+            "label": "",
+            "href": ""
+          }
         }
       ],
       "columns": 1,
-      "visible": true
+      "visible": true,
+      "separateLinks": true
     },
     "education": {
       "id": "education",
@@ -239,7 +277,8 @@
         }
       ],
       "columns": 1,
-      "visible": true
+      "visible": true,
+      "separateLinks": true
     },
     "interests": {
       "id": "interests",
@@ -259,7 +298,8 @@
         }
       ],
       "columns": 1,
-      "visible": true
+      "visible": true,
+      "separateLinks": true
     },
     "languages": {
       "id": "languages",
@@ -274,48 +314,64 @@
         }
       ],
       "columns": 1,
-      "visible": true
+      "visible": true,
+      "separateLinks": true
     },
     "volunteer": {
       "id": "volunteer",
       "name": "Volunteering",
       "items": [],
       "columns": 1,
-      "visible": true
+      "visible": true,
+      "separateLinks": true
     },
     "experience": {
       "id": "experience",
       "name": "工作经历",
       "items": [
         {
-          "id": "owfuouybcfu9qq1zmff88jp2",
-          "url": {
-            "href": "",
-            "label": ""
-          },
-          "date": "2022年2月 - 至今",
-          "company": "腾讯游戏",
-          "summary": "<ol><li><p>训练 DRL 模型，提升 MOBA 品类游戏 bot 的强度和拟人性；</p></li><li><p> 3D 模型资产的数据工程（去重/相似聚类、生成分类、质量评估和质量标注）。</p></li></ol>",
+          "id": "s5jv7y4cqw1iog1z08jv4p6n",
           "visible": true,
-          "location": "研发效能部 - 游戏AI研究中心",
-          "position": "应用研究（T6）"
+          "company": "Moffett AI",
+          "position": "软件工程师",
+          "location": "深圳",
+          "date": "2024年4月 - 至今",
+          "summary": "<p>从事 Agent 应用Demo和 LLM的infra框架 的设计开发工作。</p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "owfuouybcfu9qq1zmff88jp2",
+          "visible": true,
+          "company": "腾讯游戏",
+          "position": "应用研究（T6）",
+          "location": "深圳",
+          "date": "2022年2月 - 2024年3月",
+          "summary": "<ol><li><p>训练 DRL 模型，提升 MOBA 品类游戏 bot 的强度和拟人性；</p></li><li><p> 数据处理流水线开发（去重/相似聚类、生成分类、质量评估和质量标注）。</p></li></ol>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
         },
         {
           "id": "owfuouybcfu9qq1zmff88j22",
-          "url": {
-            "href": "",
-            "label": ""
-          },
-          "date": "2021年7月 - 2021年9月",
-          "company": "腾讯游戏",
-          "summary": "<p>实习期间，我使用自研的 DRL 训练平台，提升竞速品类游戏中 bot 的强度和拟人性，参与多个地图多种难度的 bot 上线。</p>",
           "visible": true,
-          "location": "研发效能部-游戏AI研究中心",
-          "position": "算法实习生"
+          "company": "腾讯游戏",
+          "position": "算法实习生",
+          "location": "深圳",
+          "date": "2021年7月 - 2021年9月",
+          "summary": "<p>实习期间，我使用自研的 DRL 训练平台，提升竞速品类游戏中 bot 的强度和拟人性，参与多个地图多种难度的 bot 上线。</p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
         }
       ],
       "columns": 1,
-      "visible": true
+      "visible": true,
+      "separateLinks": true
     },
     "references": {
       "id": "references",
@@ -345,14 +401,16 @@
         }
       ],
       "columns": 1,
-      "visible": true
+      "visible": true,
+      "separateLinks": true
     },
     "publications": {
       "id": "publications",
       "name": "Publications",
       "items": [],
       "columns": 1,
-      "visible": true
+      "visible": true,
+      "separateLinks": true
     },
     "certifications": {
       "id": "certifications",
@@ -372,7 +430,8 @@
         }
       ],
       "columns": 1,
-      "visible": true
+      "visible": true,
+      "separateLinks": true
     }
   }
 }
